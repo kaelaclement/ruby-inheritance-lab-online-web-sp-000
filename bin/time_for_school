@@ -21,4 +21,12 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 
 steve.learn(some_knowledge)
 
-puts "Steve learned even more from Avi: '#{steve.knowledge.last}'"
+ada = Student.new
+ada.first_name = "Ada"
+ada.last_name = "Lovelace"
+
+ada.learn(some_knowledge)
+ada.learn(some_knowledge)
+
+puts ada.knowledge
+puts steve.knowledge
